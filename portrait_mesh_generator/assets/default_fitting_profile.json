@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "description": "Default solver settings and per-parameter weights for the fitting solver.",
+  "regularization": 0.01,
+  "max_iterations": 50,
+  "tolerance": 1e-06,
+  "symmetry_strength": 1.0,
+  "parameter_bounds": [0.6, 1.6],
+  "weights": {
+    "head_height": 1.0,
+    "head_width": 1.0,
+    "jaw_width": 1.0,
+    "cheek_width": 1.0,
+    "eye_spacing": 0.8,
+    "nose_width": 0.8,
+    "nose_length": 0.8,
+    "mouth_width": 0.8,
+    "chin_height": 0.7
+  },
+  "quality_presets": {
+    "preview": {"max_iterations": 15, "regularization": 0.05},
+    "final": {"max_iterations": 80, "regularization": 0.01}
+  }
+}

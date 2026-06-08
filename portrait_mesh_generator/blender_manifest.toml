@@ -1,0 +1,29 @@
+schema_version = "1.0.0"
+
+id = "portrait_mesh_generator"
+version = "0.1.0"
+name = "PortraitMesh Generator"
+tagline = "Landmark-driven portrait-to-mesh head reconstruction (local only)"
+maintainer = "PortraitMesh Generator contributors"
+type = "add-on"
+
+website = "https://example.invalid/portrait-mesh-generator"
+
+tags = ["Mesh", "Modeling", "Pipeline", "Import-Export"]
+
+blender_version_min = "5.1.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+# This add-on performs all processing locally. It never contacts the network.
+# The optional automatic landmark detector is *not* bundled and is never
+# installed or downloaded automatically.
+permissions = { files = "Read reference images and write generated meshes, textures and logs" }
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+  "tests/",
+]

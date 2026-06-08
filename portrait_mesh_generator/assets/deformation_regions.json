@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "description": "Deformation regions for the PortraitMesh base head. center is a fraction [0,1] of the live mesh bounding box (x,y,z); radius is a fraction of the largest bbox dimension; axis is the scaled axis; front_only masks the rear of the head (face front = -Y).",
+  "regions": [
+    {"name": "head_height", "param": "head_height", "center": [0.5, 0.5, 0.5], "radius": 5.0, "axis": "z", "falloff": "none", "pivot": "center"},
+    {"name": "head_width",  "param": "head_width",  "center": [0.5, 0.5, 0.5], "radius": 5.0, "axis": "x", "falloff": "none", "pivot": "center"},
+    {"name": "cheek_width", "param": "cheek_width", "center": [0.5, 0.5, 0.61], "radius": 0.42, "axis": "x", "falloff": "smooth", "pivot": "center"},
+    {"name": "jaw_width",   "param": "jaw_width",   "center": [0.5, 0.5, 0.40], "radius": 0.45, "axis": "x", "falloff": "smooth", "pivot": "center"},
+    {"name": "eye_spacing", "param": "eye_spacing", "center": [0.5, 0.30, 0.63], "radius": 0.32, "axis": "x", "falloff": "smooth", "pivot": "center", "front_only": true},
+    {"name": "nose_width",  "param": "nose_width",  "center": [0.5, 0.15, 0.55], "radius": 0.20, "axis": "x", "falloff": "smooth", "pivot": "axis", "front_only": true},
+    {"name": "nose_length", "param": "nose_length", "center": [0.5, 0.15, 0.58], "radius": 0.24, "axis": "z", "falloff": "smooth", "pivot": "axis", "front_only": true},
+    {"name": "mouth_width", "param": "mouth_width", "center": [0.5, 0.20, 0.44], "radius": 0.22, "axis": "x", "falloff": "smooth", "pivot": "axis", "front_only": true},
+    {"name": "chin_height", "param": "chin_height", "center": [0.5, 0.30, 0.28], "radius": 0.24, "axis": "z", "falloff": "smooth", "pivot": "axis", "front_only": true}
+  ]
+}

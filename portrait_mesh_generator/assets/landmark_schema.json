@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "categories": [
+    "skull",
+    "jaw",
+    "eyes",
+    "brows",
+    "nose",
+    "mouth",
+    "ears",
+    "neck",
+    "profile"
+  ],
+  "front": [
+    {
+      "name": "skull_top",
+      "label": "Top of Skull",
+      "category": "skull",
+      "default": [
+        0.5,
+        0.04
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "temple_l",
+      "label": "Temple (L)",
+      "category": "skull",
+      "default": [
+        0.28,
+        0.22
+      ],
+      "side": "L",
+      "symmetry_partner": "temple_r",
+      "view": "front"
+    },
+    {
+      "name": "temple_r",
+      "label": "Temple (R)",
+      "category": "skull",
+      "default": [
+        0.72,
+        0.22
+      ],
+      "side": "R",
+      "symmetry_partner": "temple_l",
+      "view": "front"
+    },
+    {
+      "name": "chin",
+      "label": "Chin",
+      "category": "jaw",
+      "default": [
+        0.5,
+        0.82
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "jaw_corner_l",
+      "label": "Jaw Corner (L)",
+      "category": "jaw",
+      "default": [
+        0.3,
+        0.62
+      ],
+      "side": "L",
+      "symmetry_partner": "jaw_corner_r",
+      "view": "front"
+    },
+    {
+      "name": "jaw_corner_r",
+      "label": "Jaw Corner (R)",
+      "category": "jaw",
+      "default": [
+        0.7,
+        0.62
+      ],
+      "side": "R",
+      "symmetry_partner": "jaw_corner_l",
+      "view": "front"
+    },
+    {
+      "name": "jaw_l",
+      "label": "Jaw Contour (L)",
+      "category": "jaw",
+      "default": [
+        0.37,
+        0.74
+      ],
+      "side": "L",
+      "symmetry_partner": "jaw_r",
+      "view": "front"
+    },
+    {
+      "name": "jaw_r",
+      "label": "Jaw Contour (R)",
+      "category": "jaw",
+      "default": [
+        0.63,
+        0.74
+      ],
+      "side": "R",
+      "symmetry_partner": "jaw_l",
+      "view": "front"
+    },
+    {
+      "name": "cheek_l",
+      "label": "Cheek Outer (L)",
+      "category": "jaw",
+      "default": [
+        0.27,
+        0.52
+      ],
+      "side": "L",
+      "symmetry_partner": "cheek_r",
+      "view": "front"
+    },
+    {
+      "name": "cheek_r",
+      "label": "Cheek Outer (R)",
+      "category": "jaw",
+      "default": [
+        0.73,
+        0.52
+      ],
+      "side": "R",
+      "symmetry_partner": "cheek_l",
+      "view": "front"
+    },
+    {
+      "name": "cheekbone_l",
+      "label": "Cheekbone (L)",
+      "category": "jaw",
+      "default": [
+        0.3,
+        0.45
+      ],
+      "side": "L",
+      "symmetry_partner": "cheekbone_r",
+      "view": "front"
+    },
+    {
+      "name": "cheekbone_r",
+      "label": "Cheekbone (R)",
+      "category": "jaw",
+      "default": [
+        0.7,
+        0.45
+      ],
+      "side": "R",
+      "symmetry_partner": "cheekbone_l",
+      "view": "front"
+    },
+    {
+      "name": "brow_inner_l",
+      "label": "Brow Inner (L)",
+      "category": "brows",
+      "default": [
+        0.44,
+        0.34
+      ],
+      "side": "L",
+      "symmetry_partner": "brow_inner_r",
+      "view": "front"
+    },
+    {
+      "name": "brow_inner_r",
+      "label": "Brow Inner (R)",
+      "category": "brows",
+      "default": [
+        0.56,
+        0.34
+      ],
+      "side": "R",
+      "symmetry_partner": "brow_inner_l",
+      "view": "front"
+    },
+    {
+      "name": "brow_arch_l",
+      "label": "Brow Arch (L)",
+      "category": "brows",
+      "default": [
+        0.38,
+        0.32
+      ],
+      "side": "L",
+      "symmetry_partner": "brow_arch_r",
+      "view": "front"
+    },
+    {
+      "name": "brow_arch_r",
+      "label": "Brow Arch (R)",
+      "category": "brows",
+      "default": [
+        0.62,
+        0.32
+      ],
+      "side": "R",
+      "symmetry_partner": "brow_arch_l",
+      "view": "front"
+    },
+    {
+      "name": "brow_outer_l",
+      "label": "Brow Outer (L)",
+      "category": "brows",
+      "default": [
+        0.33,
+        0.34
+      ],
+      "side": "L",
+      "symmetry_partner": "brow_outer_r",
+      "view": "front"
+    },
+    {
+      "name": "brow_outer_r",
+      "label": "Brow Outer (R)",
+      "category": "brows",
+      "default": [
+        0.67,
+        0.34
+      ],
+      "side": "R",
+      "symmetry_partner": "brow_outer_l",
+      "view": "front"
+    },
+    {
+      "name": "eye_inner_l",
+      "label": "Eye Inner Corner (L)",
+      "category": "eyes",
+      "default": [
+        0.44,
+        0.4
+      ],
+      "side": "L",
+      "symmetry_partner": "eye_inner_r",
+      "view": "front"
+    },
+    {
+      "name": "eye_inner_r",
+      "label": "Eye Inner Corner (R)",
+      "category": "eyes",
+      "default": [
+        0.56,
+        0.4
+      ],
+      "side": "R",
+      "symmetry_partner": "eye_inner_l",
+      "view": "front"
+    },
+    {
+      "name": "eye_outer_l",
+      "label": "Eye Outer Corner (L)",
+      "category": "eyes",
+      "default": [
+        0.36,
+        0.4
+      ],
+      "side": "L",
+      "symmetry_partner": "eye_outer_r",
+      "view": "front"
+    },
+    {
+      "name": "eye_outer_r",
+      "label": "Eye Outer Corner (R)",
+      "category": "eyes",
+      "default": [
+        0.64,
+        0.4
+      ],
+      "side": "R",
+      "symmetry_partner": "eye_outer_l",
+      "view": "front"
+    },
+    {
+      "name": "eyelid_upper_l",
+      "label": "Upper Eyelid (L)",
+      "category": "eyes",
+      "default": [
+        0.4,
+        0.385
+      ],
+      "side": "L",
+      "symmetry_partner": "eyelid_upper_r",
+      "view": "front"
+    },
+    {
+      "name": "eyelid_upper_r",
+      "label": "Upper Eyelid (R)",
+      "category": "eyes",
+      "default": [
+        0.6,
+        0.385
+      ],
+      "side": "R",
+      "symmetry_partner": "eyelid_upper_l",
+      "view": "front"
+    },
+    {
+      "name": "eyelid_lower_l",
+      "label": "Lower Eyelid (L)",
+      "category": "eyes",
+      "default": [
+        0.4,
+        0.415
+      ],
+      "side": "L",
+      "symmetry_partner": "eyelid_lower_r",
+      "view": "front"
+    },
+    {
+      "name": "eyelid_lower_r",
+      "label": "Lower Eyelid (R)",
+      "category": "eyes",
+      "default": [
+        0.6,
+        0.415
+      ],
+      "side": "R",
+      "symmetry_partner": "eyelid_lower_l",
+      "view": "front"
+    },
+    {
+      "name": "pupil_l",
+      "label": "Pupil (L)",
+      "category": "eyes",
+      "default": [
+        0.4,
+        0.4
+      ],
+      "side": "L",
+      "symmetry_partner": "pupil_r",
+      "view": "front"
+    },
+    {
+      "name": "pupil_r",
+      "label": "Pupil (R)",
+      "category": "eyes",
+      "default": [
+        0.6,
+        0.4
+      ],
+      "side": "R",
+      "symmetry_partner": "pupil_l",
+      "view": "front"
+    },
+    {
+      "name": "nose_bridge_top",
+      "label": "Nose Bridge Top",
+      "category": "nose",
+      "default": [
+        0.5,
+        0.4
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "nose_bridge_mid",
+      "label": "Nose Bridge Mid",
+      "category": "nose",
+      "default": [
+        0.5,
+        0.48
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "nose_tip",
+      "label": "Nose Tip",
+      "category": "nose",
+      "default": [
+        0.5,
+        0.56
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "nose_base",
+      "label": "Nose Base",
+      "category": "nose",
+      "default": [
+        0.5,
+        0.59
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "nostril_l",
+      "label": "Nostril Outer (L)",
+      "category": "nose",
+      "default": [
+        0.45,
+        0.58
+      ],
+      "side": "L",
+      "symmetry_partner": "nostril_r",
+      "view": "front"
+    },
+    {
+      "name": "nostril_r",
+      "label": "Nostril Outer (R)",
+      "category": "nose",
+      "default": [
+        0.55,
+        0.58
+      ],
+      "side": "R",
+      "symmetry_partner": "nostril_l",
+      "view": "front"
+    },
+    {
+      "name": "philtrum",
+      "label": "Philtrum",
+      "category": "mouth",
+      "default": [
+        0.5,
+        0.63
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "upper_lip",
+      "label": "Upper Lip Centre",
+      "category": "mouth",
+      "default": [
+        0.5,
+        0.66
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "lower_lip",
+      "label": "Lower Lip Centre",
+      "category": "mouth",
+      "default": [
+        0.5,
+        0.7
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "front"
+    },
+    {
+      "name": "upper_lip_peak_l",
+      "label": "Upper Lip Peak (L)",
+      "category": "mouth",
+      "default": [
+        0.47,
+        0.655
+      ],
+      "side": "L",
+      "symmetry_partner": "upper_lip_peak_r",
+      "view": "front"
+    },
+    {
+      "name": "upper_lip_peak_r",
+      "label": "Upper Lip Peak (R)",
+      "category": "mouth",
+      "default": [
+        0.53,
+        0.655
+      ],
+      "side": "R",
+      "symmetry_partner": "upper_lip_peak_l",
+      "view": "front"
+    },
+    {
+      "name": "mouth_corner_l",
+      "label": "Mouth Corner (L)",
+      "category": "mouth",
+      "default": [
+        0.43,
+        0.68
+      ],
+      "side": "L",
+      "symmetry_partner": "mouth_corner_r",
+      "view": "front"
+    },
+    {
+      "name": "mouth_corner_r",
+      "label": "Mouth Corner (R)",
+      "category": "mouth",
+      "default": [
+        0.57,
+        0.68
+      ],
+      "side": "R",
+      "symmetry_partner": "mouth_corner_l",
+      "view": "front"
+    },
+    {
+      "name": "ear_top_l",
+      "label": "Ear Top (L)",
+      "category": "ears",
+      "default": [
+        0.26,
+        0.42
+      ],
+      "side": "L",
+      "symmetry_partner": "ear_top_r",
+      "view": "front"
+    },
+    {
+      "name": "ear_top_r",
+      "label": "Ear Top (R)",
+      "category": "ears",
+      "default": [
+        0.74,
+        0.42
+      ],
+      "side": "R",
+      "symmetry_partner": "ear_top_l",
+      "view": "front"
+    },
+    {
+      "name": "ear_bottom_l",
+      "label": "Ear Bottom (L)",
+      "category": "ears",
+      "default": [
+        0.27,
+        0.56
+      ],
+      "side": "L",
+      "symmetry_partner": "ear_bottom_r",
+      "view": "front"
+    },
+    {
+      "name": "ear_bottom_r",
+      "label": "Ear Bottom (R)",
+      "category": "ears",
+      "default": [
+        0.73,
+        0.56
+      ],
+      "side": "R",
+      "symmetry_partner": "ear_bottom_l",
+      "view": "front"
+    },
+    {
+      "name": "ear_outer_l",
+      "label": "Ear Outer (L)",
+      "category": "ears",
+      "default": [
+        0.24,
+        0.49
+      ],
+      "side": "L",
+      "symmetry_partner": "ear_outer_r",
+      "view": "front"
+    },
+    {
+      "name": "ear_outer_r",
+      "label": "Ear Outer (R)",
+      "category": "ears",
+      "default": [
+        0.76,
+        0.49
+      ],
+      "side": "R",
+      "symmetry_partner": "ear_outer_l",
+      "view": "front"
+    },
+    {
+      "name": "neck_l",
+      "label": "Neck Width (L)",
+      "category": "neck",
+      "default": [
+        0.4,
+        0.95
+      ],
+      "side": "L",
+      "symmetry_partner": "neck_r",
+      "view": "front"
+    },
+    {
+      "name": "neck_r",
+      "label": "Neck Width (R)",
+      "category": "neck",
+      "default": [
+        0.6,
+        0.95
+      ],
+      "side": "R",
+      "symmetry_partner": "neck_l",
+      "view": "front"
+    }
+  ],
+  "profile": [
+    {
+      "name": "p_forehead",
+      "label": "Forehead Projection",
+      "category": "profile",
+      "default": [
+        0.55,
+        0.18
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_brow",
+      "label": "Brow Projection",
+      "category": "profile",
+      "default": [
+        0.58,
+        0.32
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_nose_bridge",
+      "label": "Nose Bridge",
+      "category": "profile",
+      "default": [
+        0.6,
+        0.42
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_nose_tip",
+      "label": "Nose Tip",
+      "category": "profile",
+      "default": [
+        0.7,
+        0.54
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_nose_base",
+      "label": "Nose Base",
+      "category": "profile",
+      "default": [
+        0.62,
+        0.59
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_upper_lip",
+      "label": "Upper Lip Projection",
+      "category": "profile",
+      "default": [
+        0.62,
+        0.66
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_lower_lip",
+      "label": "Lower Lip Projection",
+      "category": "profile",
+      "default": [
+        0.61,
+        0.7
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_chin",
+      "label": "Chin Projection",
+      "category": "profile",
+      "default": [
+        0.58,
+        0.82
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_jaw_angle",
+      "label": "Jaw Angle",
+      "category": "profile",
+      "default": [
+        0.35,
+        0.66
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_ear",
+      "label": "Ear Position",
+      "category": "profile",
+      "default": [
+        0.3,
+        0.45
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_rear_skull",
+      "label": "Rear Skull Extent",
+      "category": "profile",
+      "default": [
+        0.12,
+        0.3
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    },
+    {
+      "name": "p_neck",
+      "label": "Neck Transition",
+      "category": "profile",
+      "default": [
+        0.4,
+        0.92
+      ],
+      "side": "C",
+      "symmetry_partner": null,
+      "view": "profile"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "project_file_version": 1,
+  "project_name": "Synthetic Sample Face",
+  "views": {
+    "front": {
+      "skull_top": {
+        "pos": [
+          0.5,
+          0.02
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "temple_l": {
+        "pos": [
+          0.28,
+          0.22
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "temple_r": {
+        "pos": [
+          0.72,
+          0.22
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "chin": {
+        "pos": [
+          0.5,
+          0.85
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "jaw_corner_l": {
+        "pos": [
+          0.27999999999999997,
+          0.62
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "jaw_corner_r": {
+        "pos": [
+          0.72,
+          0.62
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "jaw_l": {
+        "pos": [
+          0.37,
+          0.74
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "jaw_r": {
+        "pos": [
+          0.63,
+          0.74
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "cheek_l": {
+        "pos": [
+          0.27,
+          0.52
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "cheek_r": {
+        "pos": [
+          0.73,
+          0.52
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "cheekbone_l": {
+        "pos": [
+          0.27,
+          0.45
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "cheekbone_r": {
+        "pos": [
+          0.73,
+          0.45
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_inner_l": {
+        "pos": [
+          0.44,
+          0.34
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_inner_r": {
+        "pos": [
+          0.56,
+          0.34
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_arch_l": {
+        "pos": [
+          0.38,
+          0.32
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_arch_r": {
+        "pos": [
+          0.62,
+          0.32
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_outer_l": {
+        "pos": [
+          0.33,
+          0.34
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "brow_outer_r": {
+        "pos": [
+          0.67,
+          0.34
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eye_inner_l": {
+        "pos": [
+          0.44,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eye_inner_r": {
+        "pos": [
+          0.56,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eye_outer_l": {
+        "pos": [
+          0.36,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eye_outer_r": {
+        "pos": [
+          0.64,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eyelid_upper_l": {
+        "pos": [
+          0.4,
+          0.385
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eyelid_upper_r": {
+        "pos": [
+          0.6,
+          0.385
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eyelid_lower_l": {
+        "pos": [
+          0.4,
+          0.415
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "eyelid_lower_r": {
+        "pos": [
+          0.6,
+          0.415
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "pupil_l": {
+        "pos": [
+          0.4,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "pupil_r": {
+        "pos": [
+          0.6,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nose_bridge_top": {
+        "pos": [
+          0.5,
+          0.4
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nose_bridge_mid": {
+        "pos": [
+          0.5,
+          0.48
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nose_tip": {
+        "pos": [
+          0.5,
+          0.56
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nose_base": {
+        "pos": [
+          0.5,
+          0.59
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nostril_l": {
+        "pos": [
+          0.46,
+          0.58
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "nostril_r": {
+        "pos": [
+          0.54,
+          0.58
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "philtrum": {
+        "pos": [
+          0.5,
+          0.63
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "upper_lip": {
+        "pos": [
+          0.5,
+          0.66
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "lower_lip": {
+        "pos": [
+          0.5,
+          0.7
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "upper_lip_peak_l": {
+        "pos": [
+          0.47,
+          0.655
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "upper_lip_peak_r": {
+        "pos": [
+          0.53,
+          0.655
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "mouth_corner_l": {
+        "pos": [
+          0.41,
+          0.68
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "mouth_corner_r": {
+        "pos": [
+          0.59,
+          0.68
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_top_l": {
+        "pos": [
+          0.26,
+          0.42
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_top_r": {
+        "pos": [
+          0.74,
+          0.42
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_bottom_l": {
+        "pos": [
+          0.27,
+          0.56
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_bottom_r": {
+        "pos": [
+          0.73,
+          0.56
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_outer_l": {
+        "pos": [
+          0.24,
+          0.49
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "ear_outer_r": {
+        "pos": [
+          0.76,
+          0.49
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "neck_l": {
+        "pos": [
+          0.4,
+          0.95
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      },
+      "neck_r": {
+        "pos": [
+          0.6,
+          0.95
+        ],
+        "enabled": true,
+        "locked": false,
+        "confidence": 0.9,
+        "overridden": false
+      }
+    }
+  }
+}
