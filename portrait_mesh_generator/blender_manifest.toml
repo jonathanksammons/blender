@@ -26,4 +26,7 @@ paths_exclude_pattern = [
   "/.git/",
   "/*.zip",
   "tests/",
+  "dist/",
+  "build_addon.py",
+  "README.md",
 ]

@@ -14,8 +14,8 @@ implemented and verified, not aspirations.
   portrait_mesh_generator/tests/run_blender_tests.py`). Blender was actually
   launched for this result.
 - **Syntax:** all modules byte-compile (`python -m py_compile`).
-- **ZIP build:** `python build_addon.py` produces
-  `dist/portrait_mesh_generator-0.1.0.zip`.
+- **ZIP build:** `python portrait_mesh_generator/build_addon.py` produces
+  `portrait_mesh_generator/dist/portrait_mesh_generator-0.1.0.zip`.
 
 ## Implemented and working (Phase 1 + first vertical slice)
 
@@ -72,7 +72,8 @@ implemented and verified, not aspirations.
 ## Files changed in this stage
 
 Entire `portrait_mesh_generator/` package created from scratch, plus
-`build_addon.py` and `dist/portrait_mesh_generator-0.1.0.zip`. See
+`portrait_mesh_generator/build_addon.py` and
+`portrait_mesh_generator/dist/portrait_mesh_generator-0.1.0.zip`. See
 `git`-less file listing in the repository root.
 
 ## Manual Blender test steps

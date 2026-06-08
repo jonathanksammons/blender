@@ -5,10 +5,10 @@
 From the repository root:
 
 ```
-python build_addon.py
+python portrait_mesh_generator/build_addon.py
 ```
 
-This writes `dist/portrait_mesh_generator-0.1.0.zip` with the package at the
+This writes `portrait_mesh_generator/dist/portrait_mesh_generator-0.1.0.zip` with the package at the
 archive root (required by Blender's installer). Add `--no-tests` to omit the test
 suite from the shipped ZIP.
 
@@ -17,7 +17,7 @@ suite from the shipped ZIP.
 ### Option A — Install from Disk (legacy add-on path)
 1. *Edit ▸ Preferences ▸ Add-ons*.
 2. Top-right dropdown ▸ **Install from Disk…**.
-3. Select `dist/portrait_mesh_generator-0.1.0.zip`.
+3. Select `portrait_mesh_generator/dist/portrait_mesh_generator-0.1.0.zip`.
 4. Enable **PortraitMesh Generator** in the list.
 
 ### Option B — Drag and drop

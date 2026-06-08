@@ -26,7 +26,7 @@ log file shown in the **Diagnostics** panel.
 
 1. Disable and **Remove** the add-on in Preferences (unregisters cleanly).
 2. Delete any leftover `portrait_mesh_generator` folder in the add-ons directory.
-3. Rebuild with `python build_addon.py` and install the fresh ZIP.
+3. Rebuild with `python portrait_mesh_generator/build_addon.py` and install the fresh ZIP.
 
 ## Reporting a problem
 

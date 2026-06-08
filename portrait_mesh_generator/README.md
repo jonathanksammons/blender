@@ -15,12 +15,12 @@ no cloud, no paid APIs, no automatic downloads.**
 python build_addon.py            # -> dist/portrait_mesh_generator-0.1.0.zip
 
 # Pure-Python unit tests (no Blender needed)
-python -m unittest discover -s portrait_mesh_generator/tests -t .
+python -m unittest discover -s tests -t .
 
 # Blender integration tests (launches Blender 5.1)
 "C:\Program Files\Blender Foundation\Blender 5.1\blender.exe" \
   --background --factory-startup \
-  --python portrait_mesh_generator/tests/run_blender_tests.py
+  --python tests/run_blender_tests.py
 ```
 
 Then install the ZIP in Blender via *Preferences ▸ Add-ons ▸ Install from Disk*
@@ -35,17 +35,17 @@ clearly-labelled scaffolds for later phases.
 
 ## Documentation
 
-All docs live in [`portrait_mesh_generator/docs/`](portrait_mesh_generator/docs/):
+All docs live in [`docs/`](docs/):
 
-- [README](portrait_mesh_generator/docs/README.md) — overview
-- [INSTALLATION](portrait_mesh_generator/docs/INSTALLATION.md)
-- [USER_GUIDE](portrait_mesh_generator/docs/USER_GUIDE.md) — workflow + acceptance walkthrough
-- [ARCHITECTURE](portrait_mesh_generator/docs/ARCHITECTURE.md)
-- [CURRENT_STATE](portrait_mesh_generator/docs/CURRENT_STATE.md) — development progress
-- [IMPLEMENTATION_PLAN](portrait_mesh_generator/docs/IMPLEMENTATION_PLAN.md)
-- [LIMITATIONS](portrait_mesh_generator/docs/LIMITATIONS.md)
-- [PRIVACY](portrait_mesh_generator/docs/PRIVACY.md)
-- [TROUBLESHOOTING](portrait_mesh_generator/docs/TROUBLESHOOTING.md)
+- [README](docs/README.md) — overview
+- [INSTALLATION](docs/INSTALLATION.md)
+- [USER_GUIDE](docs/USER_GUIDE.md) — workflow + acceptance walkthrough
+- [ARCHITECTURE](docs/ARCHITECTURE.md)
+- [CURRENT_STATE](docs/CURRENT_STATE.md) — development progress
+- [IMPLEMENTATION_PLAN](docs/IMPLEMENTATION_PLAN.md)
+- [LIMITATIONS](docs/LIMITATIONS.md)
+- [PRIVACY](docs/PRIVACY.md)
+- [TROUBLESHOOTING](docs/TROUBLESHOOTING.md)
 
 ## License
 

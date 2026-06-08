@@ -36,7 +36,7 @@ landmarks placed over portrait reference images.
 
 ## Install
 
-See `INSTALLATION.md`. In short: build the ZIP with `python build_addon.py`,
+See `INSTALLATION.md`. In short: build the ZIP with `python portrait_mesh_generator/build_addon.py`,
 then in Blender use *Edit ▸ Preferences ▸ Add-ons ▸ Install from Disk* and pick
 the ZIP, or drag-and-drop it.
 
